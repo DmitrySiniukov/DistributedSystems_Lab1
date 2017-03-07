@@ -1,0 +1,10 @@
+all:
+	rm -rf build
+	mkdir build
+	mpicc -std=c99 lab1_hw.c -o build/lab1_hw
+
+clean:
+	rm -rf build
+
+run:
+	./build/lab1_hw

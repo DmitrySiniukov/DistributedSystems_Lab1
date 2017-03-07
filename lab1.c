@@ -15,7 +15,9 @@ long * getArr()
     {
         array = malloc(sizeof(long) * ARR_SIZE);
         for (i = 0; i < ARR_SIZE; i++)
+		{
             array[i] = i;
+		}
 
         return array;
     }
